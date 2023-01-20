@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.rotate {
+  position: absolute;
+  transform: rotate(90deg);
+  left: 160px;
+}
+.flex {
+  display: flex;
+}
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+.team-section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.relative {
+  position: relative;
+}
+.mt-11 {
+  margin-top: 44px;
+}
+.font-pt {
+  font-family: "PT Serif", serif;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.text-sm {
+  font-size: small;
+}
+.gap-11 {
+  gap: 100px;
+}
+.justify-center {
+  justify-content: center;
+}
+.h-28 {
+  width: 112px;
+}
