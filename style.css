@@ -4,10 +4,14 @@ body {
 .rotate {
   position: absolute;
   transform: rotate(90deg);
-  left: 160px;
+  left: 230px;
 }
 .flex {
   display: flex;
+}
+.grid{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .justify-space-evenly {
   justify-content: space-evenly;
@@ -31,12 +35,62 @@ body {
 .text-sm {
   font-size: small;
 }
-.gap-11 {
-  gap: 100px;
-}
+
 .justify-center {
   justify-content: center;
 }
-.h-28 {
+.w-28 {
   width: 112px;
+}
+.max-auto{
+    margin: auto;
+}
+.ml-20{
+    margin-left: 80px;
+}
+.image{
+    width: 55%;
+}
+.md-mt-11{
+  margin-top: 44px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .flex-direction{
+        flex-direction: column;
+    }
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .rotate{
+        left: 90px;
+    }
+    .image{
+        width: 100%;
+    }
+    .gap-11 {
+        gap: 40px;
+      }
+      .ml-20{
+        margin-left: 0px;
+    }
+    .sm-mt-11 {
+        margin-top: 44px;
+      }
+      .sm-mb-11{
+        margin-bottom: 44px;
+      }
+      .md-mt-11{
+        margin-top: 0px;
+      }
+}
+@media (min-width: 480px) and (max-width: 820px) {
+
+  .rotate{
+    left: 120px;
+  }
+  .ml-20{
+    margin-left: 50px;
+}
 }
